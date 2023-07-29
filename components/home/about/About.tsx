@@ -13,20 +13,28 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              hello world✌️, i&apos;m osman. i&apos;m a bit all over the place
-              but my goal lies in making interactions between humans and tech as
-              accessible as possible. based in the greater toronto area,
-              i&apos;m on a constant journey fueled by curiosity, absorbing all
-              that I can from the many remarkable people around me🚘.
+              hello world🫡, i&apos;m rudy. i&apos;m a young adult entering my 20's
+              with a burning desire to build cool sh!t. my goal lies in making innovative
+              solutions that bring value into the lives of their users.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              naturally, as an unfortunate victim of fomo, im a serial hobbie
-              hopper. currently, my interests lie in walkable cities (as a
-              mississauga native, you could probably guess why🛣️), cars (v8,
-              v10, v12 powered ones), hogwarts legacy, and the thought that
-              messi might play at bmo field⚽.
+              outside of development and tech, my interests lie in rock climbing, hip-hop,
+              and working out. you&apos;ll often find me listening to the latest {" "}
+              <a target="_blank" 
+                href="https://spotify.link/LpGiJgTTMBb"
+              >
+                hip-hop
+              </a>{" "}
+              songs or filming a{" "} 
+              <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCG-cKd4nkUg4U-UKeIbt1iw"
+              >
+                youtube
+              </a>{" "}
+              video about my life as a university student.
             </p>
           </Reveal>
           <Reveal>
@@ -35,49 +43,49 @@ export const About = () => {
                 now:
               </p>
               <p className={styles.aboutText}>
-                i&apos;m a 3rd year industrial engineering major/ai minor at the
-                university of toronto.
+                i&apos;m a 3rd year computer science major (with a focus in ai)/math minor/stats
+                 minor at the university of toronto.
               </p>
               <p className={styles.aboutText}>
-                leading a team of 4 in building websites for uoft-affiliated
-                clubs/students at{" "}
-                <a href="https://utfo.ca" target="_blank">
-                  utfo
-                </a>
-                .
+                a co-founder and cto of an ed-tech productivity startup within the{" "}
+                <a
+                target="_blank"
+                href="https://hatchery.engineering.utoronto.ca/nest-info-page/"
+                >
+                  uoft hatchery
+                </a>'s nest incubation program.
               </p>
               <p className={styles.aboutText}>
-                focusing summer on learning new tech like nextjs and langchain
-                by expanding my portfolio with cool projects, including this
-                very website! curious about socially impactful ai for humans,
-                many of my projects will revolve around the now dominant llm
-                field.
+                a web development executive on {" "}
+                <a
+                  target="_blank"
+                  href="https://hackthe6ix.com"
+                >
+                  hack the 6ix
+                </a>'s organizing team.
+              </p>
+              <p className={styles.aboutText}>
+                focusing summer on learning new technologies and delving 
+                deeper into machine learning and artificial intelligence. 
               </p>
               <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
                 previously:
               </p>
               <p className={styles.aboutText}>
-                wrote some python backend code as a swe intern at{" "}
-                <a href="https://www.molex.com/en-us/home" target="_blank">
-                  molex
+                wrote some test automation code as a swe intern at{" "}
+                <a href="https://enrichai.com" target="_blank">
+                  enrichAI
                 </a>
                 .
               </p>
               <p className={styles.aboutText}>
-                taught some python, java, and sql i learned in highschool to
-                novice 2nd year engineering students.
-              </p>
-              <p className={styles.aboutText}>
-                lead f!rosh week twice (and hopefully a third time this
-                september), welcoming incoming 1st years in the awesomest way
-                possible.
-              </p>
-              <p className={styles.aboutText}>
-                made STEM accesible to youth in low-income communities with{" "}
-                <a href="https://www.vosnl.org/" target="_blank">
-                  visions of science
-                </a>
-                .
+                did {" "}
+                <a
+                target="_blank"
+                href="https://link.springer.com/article/10.1007/s11277-020-07301-6"
+                >research</a> {" "}
+                on using particle swarm optimation to perform feature selection
+                for classification models.
               </p>
             </div>
           </Reveal>

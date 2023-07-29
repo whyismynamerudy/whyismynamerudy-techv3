@@ -33,7 +33,7 @@ export const SideBar = () => {
       className={styles.sideBar}
     >
       <span className={styles.logo}>
-        O<span>.</span>
+        1<span>.</span>
       </span>
       <motion.a
         initial={{ x: -70 }}
@@ -75,7 +75,7 @@ export const SideBar = () => {
         onClick={() => setSelected("contact")}
         className={selected === "contact" ? styles.selected : ""}
       >
-        Contact
+        contact
       </motion.a>
     </motion.nav>
   );

@@ -15,7 +15,7 @@
 }
 
 .title {
-  font-size: var(--text-2xl);
+  font-size: var(--text-xl);
   font-weight: 700;
   line-height: 1.1;
 
@@ -29,7 +29,7 @@
 }
 
 .subTitle {
-  font-size: var(--text-lg);
+  font-size: var(--text-md);
   line-height: 1.1;
   margin-top: 1.6rem;
   font-weight: 400;
@@ -53,4 +53,8 @@
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 20px;
+
+  span {
+    font-weight: bold;
+  }
 }

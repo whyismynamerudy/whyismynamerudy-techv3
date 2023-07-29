@@ -12,7 +12,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.0 }}
       >
         <Link
-          href="https://www.linkedin.com/in/osmansultan-/"
+          href="https://www.linkedin.com/in/rudraksh-monga/"
           target="_blank"
           rel="nofollow"
         >
@@ -26,7 +26,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link
-          href="https://www.github.com/osman-sultan"
+          href="https://github.com/whyismynamerudy"
           target="_blank"
           rel="nofollow"
         >
