@@ -41,7 +41,7 @@ const projects = [
           normalizing the data. Additionally, the 
           pipeline handles text data, converting characters to numeric representations, 
           which is crucial for training the model. I developed this model by following along
-          the paper titled "LipNet: End-to-End Sentence-level Lipreading" [<a target="_blank" href="https://arxiv.org/abs/1611.01599">https://arxiv.org/abs/1611.01599</a>].
+          the paper titled &quot;LipNet: End-to-End Sentence-level Lipreading&quot; [<a target="_blank" href="https://arxiv.org/abs/1611.01599">https://arxiv.org/abs/1611.01599</a>].
         </p>
         <p>
           There were challenges during the development of this project - two of the biggest
@@ -114,7 +114,7 @@ const projects = [
         </p>
         <p style={{ fontStyle: "italic" }}>
           After developing this project in a Hackathon, my friends and I had 
-          a chuckle when coming up with our tagline: "Sound like a great idea?".
+          a chuckle when coming up with our tagline: &quot;Sound like a great idea?&quot;.
         </p>
       </>
     ),
