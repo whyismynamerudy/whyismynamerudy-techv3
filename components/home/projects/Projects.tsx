@@ -30,7 +30,7 @@ const projects = [
         <p>
           I developed a deep learning model and a data transformation pipeline using 
           TensorFlow that is able to process video data and predict the spoken words
-          present in the video; my first exploration of deep
+          present in the video with an accuracy of 92.3%; my first exploration of deep
           learning!
         </p>
         <p>
@@ -56,6 +56,34 @@ const projects = [
           I learn the best by doing - as such, a project with 
           applications in improved hearing aids, silent dictation in public spaces, etc., was 
           an excellent introduction to deep learning for me.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Spotify MultiSelect",
+    imgSrc: "/project-imgs/spotify-multiselect.png",
+    code: "https://github.com/whyismynamerudy/spotify-multiselect",
+    projectLink: "https://spotify-multiselect.vercel.app/",
+    tech: ["TypeScript, Next.js, React.js, Tailwind CSS"],
+    description:
+      "Add multiple tracks to a playlist at once.",
+    modalContent: (
+      <>
+        <p>
+          Engineered a solution that addresses a gap in the current Spotify application
+          ecosystem: adding multiple tracks to a playlist at once.
+        </p>
+        <p>
+          Utilized the Spotify API to concurrently add tracks to a playlist, achieveing a
+          67.11% reduction in track addition time, yeilding an average time-saving of
+          4.77 seconds per track.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          I've found myself wishing for such a feauture multiple times now, so I built it
+          myself! It was my first time using Next.js and TailwindCSS, and I don't see myself not
+          using them in the future anytime soon. P.S. the Spotify API has some of the best 
+          documentation I've seen!
         </p>
       </>
     ),

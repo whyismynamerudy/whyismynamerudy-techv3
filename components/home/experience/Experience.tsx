@@ -18,10 +18,10 @@ const experience = [
     position: "Co-Founder, CTO, Lead Programmer",
     time: "May 2023 - Present",
     location: "Toronto, ON",
-    description: `Established a ed-tech startup focused on addressing challenged students and researchers face while accessing and managing information on the web.\n
+    description: `Established an ed-tech startup focused on addressing challenges students and researchers face while accessing and managing information on the web.\n
     Conceptualized, developed, and deployed a dynamic and responsive MVP with novel features extracted from interviews with potential users. \n
-    Designed a multifaceted business model to help stabilize revenue during the summer, maximise user retention, and drive continuous user growth.\n
-    Spearheaded the design of a secure and scalable infrastructure on AWS with optimized data storage that lays the foundation for future data analytics capabilities while reducing AWS costs.`,
+    Spearheaded the design of a scalable infrastructure on AWS with optimized data storage, laying foundation for future data analytics capabilities and minimizing AWS costs by 29.17%.\n
+    Iterated pitch decks, business plans, and cash flow projections, with final versions assessed by over 300 judges worldwide, resulting in our selection as finalists in a startup incubator.`,
     tech: [
       "TypeScript",
       "Amazon Web Services (AWS)",
@@ -37,13 +37,11 @@ const experience = [
   },
   {
     title: "Hack the 6ix",
-    position: "Web Development Executive",
+    position: "Full-Stack Developer",
     time: "Summer 2023",
     location: "Toronto, ON",
-    description: `Developed various aspects of the hackathon's digital presence.\n
-    Created new reusable stylized components that were utilized while building multiple sections of the event's landing page and hacker dashboard, with designs following strict Figma guidelines.\n
-    Significantly improved post application flow for users applying to the hackathon.\n
-    Fetched and rendered Notion pages in a React app to convey vital information to hackers.`,
+    description: `Developed reusable, stylized components in React and TypeScript for the hackathon’s landing page, driving 3000+ unique views and 1200+ hacker applications.\n
+    Utilized the Notion API to fetch and display hacker information, schedule, and resources to 250+ hackers.`,
     tech: ["TypeScipt", "SCSS", "MongoDB", "React", "Storyboard", "Git"],
   },
   {
@@ -51,9 +49,9 @@ const experience = [
     position: "Software Engineering Intern",
     time: "July 2022 - Aug 2022",
     location: "Gurgaon, India",
-    description: `Developed an automated testing suite consisting of unit, integration, end-to-end, and usability tests for an IOT waste collection solution deployed in Doha, Qatar.\n
-    Significantly boosted test automation by achieving >97% automation of tests. This automation increased testing efficiency and reduced manual effort.\n
-    Increased ease of test analysis and identification of failed tests by automatically generating color-coded HTML reports with screenshots and timestamps, facilitating prompt issue resolution.`,
+    description: `Developed an automated testing suite consisting of unit, integration, end-to-end, and usability tests for an IoT waste collection solution.\n
+    Automated >97% of tests using WebdriverIO and Selenium, reducing testing time by 99.1% (from 10 minutes to 32 seconds).\n
+    Facilitated identification of failed tests and increased ease of test analysis by automatically generating color-coded reports with screenshots and timestamps.`,
     tech: ["JavaScript", "WebDriverIO", "Python", "Selenium"],
   },
 ];
