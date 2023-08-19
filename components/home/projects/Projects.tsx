@@ -80,10 +80,10 @@ const projects = [
           4.77 seconds per track.
         </p>
         <p style={{ fontStyle: "italic" }}>
-          I've found myself wishing for such a feauture multiple times now, so I built it
-          myself! It was my first time using Next.js and TailwindCSS, and I don't see myself not
+          I&apos;ve found myself wishing for such a feauture multiple times now, so I built it
+          myself! It was my first time using Next.js and TailwindCSS, and I don&apos;t see myself not
           using them in the future anytime soon. P.S. the Spotify API has some of the best 
-          documentation I've seen!
+          documentation I&apos;ve seen!
         </p>
       </>
     ),
