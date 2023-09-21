@@ -61,6 +61,42 @@ const projects = [
     ),
   },
   {
+    title: "ShiftyTech",
+    imgSrc: "/project-imgs/shiftyTech.jpg", //642 x 408
+    code: "https://github.com/whyismynamerudy/shiftyTech",
+    projectLink: "https://shiftytech.tech/",
+    tech: ["Python", "TensorFlow", "OpenCV", "Milvus"],
+    description:
+      "Hack the North 2023: Best Hack Built on Replit. An application that allows users to code using their body.",
+    modalContent: (
+      <>
+        <p>
+          Developed an application that mapped 21 body poses to keywords and macros in Python, allowing developers to 
+          combine poses to write executable programs on Replit.
+        </p>
+        <p>
+          Using OpenCV, the application captures frames and sends them to the MoveNet Thunder pose estimation model. 
+          The model returns 17 key points, each representing specific points on the human body such as 
+          joints. Then, after normalizing the vector representation of the returned key points, we perform the 
+          k-nearest neighbors (kNN) algorithm using pose representations stored on a vector database (Milvus) to 
+          successfully classify a pose as a keyword/macro. 
+        </p>
+        <p>
+          There were quite a few challenges my team faced when developing this project. Initially, we 
+          had depolyed our pose estimation model on Vertex AI on Google Cloud Platform (GCP) and used 
+          a beta feature on MongoDB to aid in the kNN algorithm, but this approach introduced a lot of 
+          latency in the classification. Hence, we swtiched to storing the model locally and 
+          storing our training examples on Milvus, a specialized vector database.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          Working on this project in the small time span of a hackathon was really fun! Once we finished,
+          my friends and I walked around looking for people to try it out, and seeing their inital look of 
+          skepticism change into a look of joy was worth it!
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Spotify MultiSelect",
     imgSrc: "/project-imgs/spotify-multiselect.png",
     code: "https://github.com/whyismynamerudy/spotify-multiselect",

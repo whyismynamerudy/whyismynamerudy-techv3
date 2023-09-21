@@ -47,6 +47,24 @@ export const About = () => {
                  minor at the university of toronto.
               </p>
               <p className={styles.aboutText}>
+                an ai/nlp engineer at the {" "}
+                <a
+                target="_blank"
+                href="https://urbandatacentre.com/"
+                >
+                  urban data center
+                </a> at the university of toronto (uoft).
+              </p>
+              <p className={styles.aboutText}>
+                a cloud developer on the open source team, infrastructure at {" "}
+                <a
+                target="_blank"
+                href="https://utmist.gitlab.io/"
+                >
+                  utmist
+                </a>, the university of toronto machine intelligence student team.
+              </p>
+              <p className={styles.aboutText}>
                 a co-founder and cto of an ed-tech productivity startup within the{" "}
                 <a
                 target="_blank"
@@ -56,20 +74,20 @@ export const About = () => {
                 </a>&apos;s nest incubation program.
               </p>
               <p className={styles.aboutText}>
-                a web development executive on {" "}
+                focusing on learning new technologies and delving 
+                deeper into machine learning and artificial intelligence. 
+              </p>
+              <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
+                previously:
+              </p>
+              <p className={styles.aboutText}>
+                a full stack developer and a web development executive on {" "}
                 <a
                   target="_blank"
                   href="https://hackthe6ix.com"
                 >
                   hack the 6ix
                 </a>&apos;s organizing team.
-              </p>
-              <p className={styles.aboutText}>
-                focusing summer on learning new technologies and delving 
-                deeper into machine learning and artificial intelligence. 
-              </p>
-              <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
-                previously:
               </p>
               <p className={styles.aboutText}>
                 wrote some test automation code as a swe intern at{" "}

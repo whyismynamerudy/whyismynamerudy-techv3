@@ -64,6 +64,7 @@ export const Stats = () => {
             <span className="chip">MySQL</span>
             <span className="chip">MongoDB</span>
             <span className="chip">PostgreSQL</span>
+            <span className="chip">Milvus</span>
           </div>
         </div>
       </Reveal>

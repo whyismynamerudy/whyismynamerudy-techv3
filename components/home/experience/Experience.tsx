@@ -18,7 +18,7 @@ const experience = [
     position: "Co-Founder, CTO, Lead Programmer",
     time: "May 2023 - Present",
     location: "Toronto, ON",
-    description: `Established an ed-tech startup focused on addressing challenges students and researchers face while accessing and managing information on the web.\n
+    description: `Established an innovative ed-tech startup focused on addressing challenges students and researchers face while accessing and managing information on the web.\n
     Conceptualized, developed, and deployed a dynamic and responsive MVP with novel features extracted from interviews with potential users. \n
     Spearheaded the design of a scalable infrastructure on AWS with optimized data storage, laying foundation for future data analytics capabilities and minimizing AWS costs by 29.17%.\n
     Iterated pitch decks, business plans, and cash flow projections, with final versions assessed by over 300 judges worldwide, resulting in our selection as finalists in a startup incubator.`,
