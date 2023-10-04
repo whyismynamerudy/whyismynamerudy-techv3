@@ -56,6 +56,17 @@ export const About = () => {
                 </a> at the university of toronto (uoft).
               </p>
               <p className={styles.aboutText}>
+                an ML developer at {" "}
+                <a
+                target="_blank"
+                href="https://utmist.gitlab.io/"
+                >
+                  utmist
+                </a>, the university of toronto machine intelligence student team, working on the re-implementation and expansion
+                of the paper titled “Colorful Image Colorization” authored by Richard Zhang et al. to develop an automated 
+                colorization model for historical black and white images.
+              </p>
+              <p className={styles.aboutText}>
                 a cloud developer on the open source team, infrastructure at {" "}
                 <a
                 target="_blank"
