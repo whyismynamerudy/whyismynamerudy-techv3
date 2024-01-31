@@ -51,7 +51,7 @@ export const Hero = () => {
             <p>
               -&gt; compsci, math, and stats student @ uoft <br /> <br /> 
               -&gt; building <span>impactful</span>, <span>scalable</span>, and <span>secure</span> software <br /> <br /> 
-              -&gt; passionate about machine learning, backend development, &emsp; and innovation
+              -&gt; passionate about machine learning, artificial intelligence, and innovation
               {/* <br />
               -&gt; when i'm not at the computer, i'm usually: <br />
               &emsp; &bull; rock climbing <br />
@@ -78,7 +78,7 @@ export const Hero = () => {
               or learning the latest ml and ai technologies. */}
             </p>
             <br />
-            <p>let&apos;s connect!</p>
+            <p>let&apos;s connect! (p.s., try clicking one of the dots!)</p>
           </div>
         </Reveal>
         <Reveal>

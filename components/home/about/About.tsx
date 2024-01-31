@@ -15,7 +15,8 @@ export const About = () => {
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               hello world🫡, i&apos;m rudy. i&apos;m a young adult entering my 20&apos;s
               with a burning desire to build cool sh!t. my goal lies in making innovative
-              solutions that bring value into the lives of their users.
+              solutions that bring value into the lives of their users. i also want to do 
+              some cool research some day.
             </p>
           </Reveal>
           <Reveal>
@@ -66,7 +67,7 @@ export const About = () => {
                 of the paper titled “Colorful Image Colorization” authored by Richard Zhang et al. to develop an automated 
                 colorization model for historical black and white images.
               </p>
-              <p className={styles.aboutText}>
+              {/* <p className={styles.aboutText}>
                 a cloud developer on the open source team, infrastructure at {" "}
                 <a
                 target="_blank"
@@ -74,6 +75,24 @@ export const About = () => {
                 >
                   utmist
                 </a>, the university of toronto machine intelligence student team.
+              </p> */}
+              <p className={styles.aboutText}>
+                focusing on learning new technologies and delving 
+                deeper into machine learning and artificial intelligence. 
+              </p>
+              <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
+                previously:
+              </p>
+              <p className={styles.aboutText}>
+                led a team to develop an open source project w/{" "}
+                <a
+                target="_blank"
+                href="https://www.unicef.org/"
+                >
+                  unicef
+                </a>{" "} that allows their developers to clone apache superset dashboards across
+                instances, i.e. across staging and production environments, reducing the time taken
+                to do so by 93.6%.
               </p>
               <p className={styles.aboutText}>
                 a co-founder and cto of an ed-tech productivity startup within the{" "}
@@ -83,13 +102,6 @@ export const About = () => {
                 >
                   uoft hatchery
                 </a>&apos;s nest incubation program.
-              </p>
-              <p className={styles.aboutText}>
-                focusing on learning new technologies and delving 
-                deeper into machine learning and artificial intelligence. 
-              </p>
-              <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
-                previously:
               </p>
               <p className={styles.aboutText}>
                 a full stack developer and a web development executive on {" "}

@@ -14,6 +14,20 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "Urban Data Centre, University of Toronto",
+    position: "Machine Learning Engineer",
+    time: "Aug 2023 - Present",
+    location: "Toronto, ON",
+    description: `Engineered a novel knowledge source for a Natural Language Understanding (NLU) system by fine-tuning the RoBERTa large language model to > 93% accuracy using transfer learning for NER. \n
+    Independently conducted a comparative study to determine the impact of specific entities on overall accuracy, providing insights into the significance of distinct entities within the model.`,
+    tech: [
+      "Python",
+      "PyTorch",
+      "HuggingFace",
+      "Docker"
+    ]
+  },
+  {
     title: "1Kit",
     position: "Co-Founder, CTO, Lead Programmer",
     time: "May 2023 - Present",

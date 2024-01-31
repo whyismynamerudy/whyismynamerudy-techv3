@@ -60,6 +60,7 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">Git/GitHub</span>
+            <span className="chip">Docker</span>
             <span className="chip">Amazon Web Services (AWS)</span>
             <span className="chip">MySQL</span>
             <span className="chip">MongoDB</span>

@@ -18,6 +18,43 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Shakespearean GPT",
+    imgSrc: "/project-imgs/transformers.jpeg", // Image source path
+    code: "https://github.com/your-username/shakespeare-transformer", // GitHub repository link
+    projectLink: "https://colab.research.google.com/drive/1Jwn6bEMDcNY20YBtTdfDgECoHDhqgwko?usp=sharing", // Optional project website link
+    tech: ["Python", "PyTorch"],
+    description:
+      "Implemented the Transformer architecture from scratch in PyTorch for generating text in the style of Shakespeare.",
+    modalContent: (
+      <>
+        <p>
+          Delving into the implementation of the Transformer architecture from scratch was a challenging yet rewarding 
+          experience. The project aimed to understand the key components outlined in the "Attention is All You Need" paper 
+          and apply them to develop a Transformer from scratch.
+        </p>
+        <p>
+          The model's architecture included self-attention mechanisms, layer normalization, and feedforward neural networks.
+          Positional encodings were included to add positional information to the model, enabling it to grasp 
+          the order of words in the text.
+        </p>
+        <p>
+          Training the model was challenging as I did not have access to too much compute power. As such, hyperparameter 
+          tuning and careful adjustments to the training process were crucial in achieving coherent and 
+          contextually relevant outputs while minimizing the computational cost.
+        </p>
+        <p>
+          In addition to the technical challenges, there were moments of joy and surprise as the model began 
+          producing text that somewhat resembles Shakespeare's writings. Fine-tuning the model to 
+          strike a balance between computational cost and truth to the source material was an iterative process.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          Overall, this was a really fun project. Shoutout Andrej Karpathy for guiding me through this, haha. 
+          It was really cool to notice my understanding of the Attention paper increasing as I built more of the architecture.
+        </p>
+      </>
+    ),
+  },  
+  {
     title: "LipNet",
     imgSrc: "/project-imgs/lipnet.png", //642 x 408
     code: "https://github.com/whyismynamerudy/LipNet",
