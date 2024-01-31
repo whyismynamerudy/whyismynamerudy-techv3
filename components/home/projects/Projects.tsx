@@ -29,11 +29,11 @@ const projects = [
       <>
         <p>
           Delving into the implementation of the Transformer architecture from scratch was a challenging yet rewarding 
-          experience. The project aimed to understand the key components outlined in the "Attention is All You Need" paper 
+          experience. The project aimed to understand the key components outlined in the &quot;Attention is All You Need&quot; paper 
           and apply them to develop a Transformer from scratch.
         </p>
         <p>
-          The model's architecture included self-attention mechanisms, layer normalization, and feedforward neural networks.
+          The model&apos;s architecture included self-attention mechanisms, layer normalization, and feedforward neural networks.
           Positional encodings were included to add positional information to the model, enabling it to grasp 
           the order of words in the text.
         </p>
@@ -44,7 +44,7 @@ const projects = [
         </p>
         <p>
           In addition to the technical challenges, there were moments of joy and surprise as the model began 
-          producing text that somewhat resembles Shakespeare's writings. Fine-tuning the model to 
+          producing text that somewhat resembles Shakespeare&apos;s writings. Fine-tuning the model to 
           strike a balance between computational cost and truth to the source material was an iterative process.
         </p>
         <p style={{ fontStyle: "italic" }}>
