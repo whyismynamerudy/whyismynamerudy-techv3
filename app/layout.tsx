@@ -1,5 +1,6 @@
 import "@styles/globals.css";
 import { IBM_Plex_Mono, Poppins } from "next/font/google";
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 const ibm_plex_mono = IBM_Plex_Mono({
   weight: ["100", "200", "400", "700"],
@@ -23,6 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GoogleAnalytics />
       <body className={ibm_plex_mono.className}>
         <div id="root">{children}</div>
       </body>
