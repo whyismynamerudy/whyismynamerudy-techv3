@@ -18,6 +18,39 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Life Simulation",
+    imgSrc: "/project-imgs/particlelife.png", // Image source path
+    code: "https://github.com/whyismynamerudy/particle-life-rust", // GitHub repository link
+    projectLink: "", // Optional project website link
+    tech: ["Rust", "Javascript", "HTML/CSS", "Tauri"],
+    description:
+      "A simulation of atoms with different interaction rules (attraction/repulsion) to demonstrate emergent, life-like behavior within the particles.",
+    modalContent: (
+      <>
+        <p>
+          For the longest time, I was fascinated by how "life" emerged (I loved reading science books as a kid, aha). 
+          Picture this: a vast primordial soup of atoms and molecules just floating around in the lifeless water on 
+          prehistoric Earth, attracting and repelling each other in a never-ending battle. Then, somehow, among 
+          all that chaos, emerged a novel combination of particles that could react to its environment to ensure its survival.
+        </p>
+        <p>
+          To explore this concept, I built a simulator in Rust, HTML, JS, and CSS using Tauri to simulate different types of 
+          particles interacting with each other via predefined interaction rules (i.e., rules of attraction and repulsion). 
+          I experimented with various interaction rules and witnessed the emergence of phenomena resembling cellular structures 
+          and molecular "creatures" with wings that chased other particles.
+        </p>
+        <p>
+          These simulations, although not a true reflection of what happened in reality, showcased how complex, 
+          life-like behaviors can arise from simple interactions. It satisfied my curiosity, and seeing 
+          these interactions unfold in unexpected and intricate ways deepened my appreciation for the complexity of life and the principles behind it.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          Overall, this was a really fun project. I wanted to learn Rust and this was a great way to do so.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Shakespearean GPT",
     imgSrc: "/project-imgs/transformers.jpeg", // Image source path
     code: "https://github.com/your-username/shakespeare-transformer", // GitHub repository link

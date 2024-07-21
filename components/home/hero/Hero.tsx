@@ -6,33 +6,6 @@ import anime from "animejs";
 
 export const Hero = () => {
 
-  // const shake = anime({
-  //   targets: '#secure',
-  //   easing: 'easeInOutSine',
-  //   duration: 550,
-  //   translateX: [
-  //     {
-  //       value: 16 * -1,
-  //     },
-  //     {
-  //       value: 16,
-  //     },
-  //     {
-  //       value: 16/-2,
-  //     },
-  //     {
-  //       value: 16/2,
-  //     },
-  //     {
-  //       value: 0
-  //     }
-  //   ],
-  // });
-
-  // const handleSecureClick = (e: any) => {
-  //   shake.restart();
-  // }
-
   return (
     <section className={`section-wrapper ${styles.hero}`}>
       <div className={styles.copyWrapper}>

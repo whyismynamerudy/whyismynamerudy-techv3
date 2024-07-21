@@ -14,9 +14,8 @@ export const About = () => {
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               hello world🫡, i&apos;m rudy. i&apos;m a young adult entering my 20&apos;s
-              with a burning desire to build cool sh!t. my goal lies in making innovative
-              solutions that bring value into the lives of their users. i also want to do 
-              some cool research some day.
+              with a burning desire to build cool sh!t. i spend my time making innovative
+              solutions that bring value into the lives of their users.
             </p>
           </Reveal>
           <Reveal>
@@ -44,8 +43,41 @@ export const About = () => {
                 now:
               </p>
               <p className={styles.aboutText}>
-                i&apos;m a 3rd year computer science major (with a focus in ai)/math minor/stats
-                 minor at the university of toronto.
+                i just finished my 3rd year at the university of toronto, where i&apos;m studying computer science (with a focus in ai), math, and stats.
+              </p>
+              <p className={styles.aboutText}>
+                a machine learning / artificial intelligence researcher at {" "}
+                <a
+                target="_blank"
+                href="https://csslab.cs.toronto.edu/"
+                >
+                  the computational social sciences lab
+                </a> at the university of toronto (uoft) (working under Prof. Ashton Anderson).
+              </p>
+              <p className={styles.aboutText}>
+                a software engineering intern at {" "}
+                <a
+                target="_blank"
+                href="https://www.intactfc.com/"
+                >
+                  intact financial corporation
+                </a>
+              </p>
+              
+              {/* <p className={styles.aboutText}>
+                a cloud developer on the open source team, infrastructure at {" "}
+                <a
+                target="_blank"
+                href="https://utmist.gitlab.io/"
+                >
+                  utmist
+                </a>, the university of toronto machine intelligence student team.
+              </p> */}
+              <p className={styles.aboutText}>
+                trying to understand what defines a community and how to develop products that redefine user experiences
+              </p>
+              <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
+                previously:
               </p>
               <p className={styles.aboutText}>
                 an ai/nlp engineer at the {" "}
@@ -66,22 +98,6 @@ export const About = () => {
                 </a>, the university of toronto machine intelligence student team, working on the re-implementation and expansion
                 of the paper titled “Colorful Image Colorization” authored by Richard Zhang et al. to develop an automated 
                 colorization model for historical black and white images.
-              </p>
-              {/* <p className={styles.aboutText}>
-                a cloud developer on the open source team, infrastructure at {" "}
-                <a
-                target="_blank"
-                href="https://utmist.gitlab.io/"
-                >
-                  utmist
-                </a>, the university of toronto machine intelligence student team.
-              </p> */}
-              <p className={styles.aboutText}>
-                focusing on learning new technologies and delving 
-                deeper into machine learning and artificial intelligence. 
-              </p>
-              <p className={styles.aboutText} style={{ fontWeight: "bold" }}>
-                previously:
               </p>
               <p className={styles.aboutText}>
                 led a team to develop an open source project w/{" "}
