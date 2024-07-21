@@ -28,7 +28,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-          For the longest time, I was fascinated by how "life" emerged (I loved reading science books as a kid, aha). 
+          For the longest time, I was fascinated by how life emerged (I loved reading science books as a kid, aha). 
           Picture this: a vast primordial soup of atoms and molecules just floating around in the lifeless water on 
           prehistoric Earth, attracting and repelling each other in a never-ending battle. Then, somehow, among 
           all that chaos, emerged a novel combination of particles that could react to its environment to ensure its survival.
@@ -37,7 +37,7 @@ const projects = [
           To explore this concept, I built a simulator in Rust, HTML, JS, and CSS using Tauri to simulate different types of 
           particles interacting with each other via predefined interaction rules (i.e., rules of attraction and repulsion). 
           I experimented with various interaction rules and witnessed the emergence of phenomena resembling cellular structures 
-          and molecular "creatures" with wings that chased other particles.
+          and molecular &quot;creatures&quot; with wings that chased other particles.
         </p>
         <p>
           These simulations, although not a true reflection of what happened in reality, showcased how complex, 
