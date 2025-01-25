@@ -68,7 +68,7 @@ const projects = [
   {
     title: "AI Collaborative Data Analysis",
     imgSrc: "/project-imgs/ai-agents.png",
-    code: "https://github.com/yourusername/ai-collaborative-agents",
+    code: "",
     projectLink: "",
     tech: ["Python", "OpenAI", "Streamlit", "Plotly", "ReportLab"],
     description: "A system of collaborative AI agents that perform comprehensive data analysis with visualization and PDF report generation.",
