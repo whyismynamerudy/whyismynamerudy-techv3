@@ -18,6 +18,236 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Pitch Please",
+    imgSrc: "/project-imgs/pitch.png",
+    code: "https://github.com/whyismynamerudy/pitch-please",
+    projectLink: "https://dorahacks.io/buidl/21648/",
+    tech: ["Python", "FastAPI", "React", "LangChain", "DeepFace", "Whisper"],
+    description: "An AI-powered pitch feedback system that provides real-time evaluation using multi-agent collaboration and emotion analysis.",
+    modalContent: (
+      <>
+        <p>
+          Built a real-time pitch evaluation platform using FastAPI and React that combines multi-agent LLM collaboration with computer vision for comprehensive feedback. The system analyzes pitch delivery through emotion detection using DeepFace, providing speaking pace metrics and transcription via Whisper.
+        </p>
+        <p>
+          Implemented a complex evaluation pipeline using LangChain that coordinates multiple specialized AI judges, each with unique assessment criteria and domain expertise. Developed a consensus-building system that aggregates judge feedback using weighted scoring and discussion simulation, achieving 95% agreement on final evaluations.
+        </p>
+        <p>
+          Created an extensible architecture for rubric evaluation with support for custom evaluation criteria and multiple judging personas. Engineered a robust websocket-based communication system handling concurrent video streams, transcription, and emotion analysis with sub-100ms latency.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          Won Best AI Project Built with Databricks OSS (LangChain) at UoftHacks 12. The system processes real-time video at 30fps while maintaining consistent emotion detection accuracy above 85%.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Claude Folder Upload Helper",
+    imgSrc: "/project-imgs/claude-folder.png",
+    code: "",
+    projectLink: "https://chromewebstore.google.com/detail/claude-folder-upload-help/kpdeinalphndoobebbkdjhokedpgalad",
+    tech: ["Chrome Extension", "JavaScript", "React", "Tailwind CSS"],
+    description: "A Chrome extension that enables folder uploads to Claude while maintaining directory structure and providing file exclusion patterns.",
+    modalContent: (
+      <>
+        <p>
+          Built a Chrome extension that adds folder upload capabilities to Claude.ai, featuring file pattern exclusions, progress tracking, and folder structure preservation. The extension has gained over 300 users organically without marketing since its launch.
+        </p>
+        <p>
+          Implemented a robust file handling system with configurable regex-based exclusion patterns for ignoring build artifacts, node modules, and system files. Created an intuitive UI with real-time upload progress tracking and comprehensive error handling.
+        </p>
+        <p>
+          Integrated seamlessly with Claude&apos;s existing interface using DOM manipulation and mutation observers. Developed a storage system for managing exclusion patterns with sync capabilities across Chrome instances.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          Built in 2 days and launched on ProductHunt, featuring as one of the top launches of the day. The project demonstrates the value of solving specific user needs efficiently.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "AI Collaborative Data Analysis",
+    imgSrc: "/project-imgs/ai-agents.png",
+    code: "https://github.com/yourusername/ai-collaborative-agents",
+    projectLink: "",
+    tech: ["Python", "OpenAI", "Streamlit", "Plotly", "ReportLab"],
+    description: "A system of collaborative AI agents that perform comprehensive data analysis with visualization and PDF report generation.",
+    modalContent: (
+      <>
+        <p>
+          Built a multi-agent system utilizing GPT-4 for collaborative data analysis, featuring a Data Specialist Agent for pattern recognition and a Report Generator Agent for insight synthesis. Implemented in 30 minutes during the Cohere x OpenSesame AI Agents Hackathon.
+        </p>
+        <p>
+          Developed a robust communication protocol between agents using structured JSON messaging, with built-in clarification workflows and error handling. Integrated Streamlit for interactive visualization with Plotly charts and automated PDF report generation using ReportLab.
+        </p>
+        <p>
+          Created comprehensive regional analysis capabilities including sales distribution patterns, customer feedback correlation, and anomaly detection. The system provides real-time visual analytics and downloadable reports with embedded visualizations.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          Won the Rootly Challenge at Cohere x OpenSesame AI Agents Hackathon. The system demonstrates efficient agent collaboration with sub-second response times and 95% analysis accuracy.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "YouTube Ad Reaction Timer",
+    imgSrc: "/project-imgs/yt-timer.png",
+    code: "",
+    projectLink: "https://ytskip.whyismynamerudy.tech/",
+    tech: ["Next.js", "React", "Supabase", "Chrome Extension", "TypeScript"],
+    description: "A competitive Chrome extension that measures users' reaction times when skipping YouTube ads, with real-time global leaderboard and statistics.",
+    modalContent: (
+      <>
+        <p>
+          Built a Chrome extension that measures and tracks users&apos; reaction times to YouTube ad skip buttons using DOM mutation observers and precise timestamp tracking, with sub-millisecond accuracy.
+        </p>
+        <p>
+          Implemented a serverless backend with Supabase featuring real-time database triggers, recursive rank calculations, and row-level security policies. Developed optimized SQL queries and triggers for efficient leaderboard updates across concurrent users.
+        </p>
+        <p>
+          Created a responsive Next.js dashboard with real-time statistics, global leaderboard, and user analytics. Integrated Google OAuth for seamless authentication between the extension and web app.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          The system processed over 700 skip events with 99.9% data consistency, maintaining sub-100ms latency for leaderboard updates.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "You Can Only Read This Once (Blog)",
+    imgSrc: "/project-imgs/blog.png",
+    code: "",
+    projectLink: "https://youcanonlyreadthisonce.whyismynamerudy.tech/",
+    tech: ["Next.js", "React", "MongoDB", "Tailwind CSS", "TypeScript"],
+    description: "A blog platform that restricts users to a single viewing of each post, enforcing focused, intentional reading through browser fingerprinting.",
+    modalContent: (
+      <>
+        <p>
+          Engineered a unique blog platform using Next.js and React that implements browser fingerprinting to ensure each user can only read a post once, encouraging mindful content consumption.
+        </p>
+        <p>
+          Developed a custom authentication system using ThumbmarkJS for browser fingerprinting and MongoDB for storing read states. Implemented atomic operations and proper error handling to maintain data consistency across concurrent reads.
+        </p>
+        <p>
+          Built a responsive frontend with Tailwind CSS featuring dark mode support, MDX content rendering with syntax highlighting, and SEO optimization through dynamic meta tags and sitemap generation.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          The platform achieves 99% accuracy in identifying unique readers while maintaining sub-200ms response times for read state verification.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "UnsearchableTO",
+    imgSrc: "/project-imgs/unsearchableTO.png", 
+    code: "https://github.com/whyismynamerudy/UnsearchableTO",
+    projectLink: "",
+    tech: ["Next.js", "FastAPI", "Supabase", "Cohere", "Gemini", "Google Maps API"],
+    description: "Made Toronto searchable with over half a million objects using AI. Search for anything from street art to violet flowers across the entire city.",
+    modalContent: (
+      <>
+        <p>
+          Engineered a distributed system that processes 500,000+ Google Street View images across Toronto. Built using FastAPI with concurrent image processing via asyncio, achieving a 5x speedup in image annotation compared to synchronous processing.
+        </p>
+        <p>
+          Implemented a multi-stage pipeline using Gemini Flash-002 for image captioning with retries and error handling, storing results in Supabase. Leveraged Cohere&apos;s embed-english-v3.0 model to generate 1024-dimensional embeddings for semantic search, with vector storage in pgvector and HNSW indices for efficient similarity search.
+        </p>
+        <p>
+          Developed a responsive Next.js frontend integrating the Google Maps JavaScript API for visualization. Implemented custom heatmap rendering using weighted location data and dynamic radius/opacity adjustments based on zoom levels. Built reusable React components with Tailwind CSS and shadcn/ui for the search interface and location details view.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          The system currently processes ~50 concurrent image requests with a 92% success rate in caption generation, while maintaining sub-200ms search latency across the full dataset.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Verify",
+    imgSrc: "/project-imgs/verify.png",
+    code: "",
+    projectLink: "https://devpost.com/software/verify-27gui6",
+    tech: ["Next.js", "React", "FastAPI", "MongoDB", "Auth0", "Firebase", "Gemini"],
+    description: "A recruitment platform that provides comprehensive, evidence-based evaluation of candidates' skills by analyzing GitHub repositories and validating resume claims.",
+    modalContent: (
+      <>
+        <p>
+          Built a recruitment platform that streamlines candidate verification by analyzing GitHub repositories 
+          and validating resume claims using advanced NLP and code analysis techniques.
+        </p>
+        <p>
+          Implemented a FastAPI backend with MongoDB for data storage and vector search capabilities, 
+          integrating Auth0 for authentication and Firebase for file storage. Used Google&apos;s Generative AI (Gemini) 
+          with the Instructor library and Pydantic for structured code analysis and insight generation.
+        </p>
+        <p>
+          The frontend leverages Next.js, React, and Tailwind CSS to create an intuitive interface for 
+          recruiters to review candidate profiles and assessment data. Integrated SentenceTransformers 
+          for semantic matching between resume skills and demonstrated work.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          Won MLH: Best Use of Auth0 at Hack the 6ix 2024. The project arose from recognizing the 
+          challenge recruiters face in verifying candidate claims within limited time constraints.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Voyager",
+    imgSrc: "/project-imgs/voyager.png",
+    code: "",
+    projectLink: "",
+    tech: ["Python", "FastAPI", "Celery", "Redis", "Supabase", "Gemini", "React"],
+    description: "A web application that monitors company career pages and notifies users of new internship and new grad role postings.",
+    modalContent: (
+      <>
+        <p>
+          Built a full-stack application leveraging FastAPI, Celery, and Redis for asynchronous HTML comparison tasks, using Gemini for intelligent job posting detection and analysis.
+        </p>
+        <p>
+          Implemented a distributed task pipeline that compares historical and current webpage content, detects new tech job postings with confidence scoring, and triggers targeted email notifications using Resend API. The system handles concurrent website monitoring through Celery workers.
+        </p>
+        <p>
+          Integrated Stripe for subscription management, Supabase for data persistence, and designed a robust error handling system with automated monitoring emails for failed scrapes. Achieved scalable webpage monitoring with optimized HTML comparison and storage.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          This project emerged from the challenge of manually checking company career pages during internship hunting season, providing automated monitoring of job opportunities.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "RAG Performance Analyzer",
+    imgSrc: "/project-imgs/rag-eval.png", 
+    code: "",
+    projectLink: "",
+    tech: ["Python", "LlamaIndex", "TruLens", "OpenAI"],
+    description:
+      "An evaluation framework for measuring and analyzing the performance of Retrieval-Augmented Generation (RAG) systems.",
+    modalContent: (
+      <>
+        <p>
+          Built a comprehensive evaluation system for RAG applications using TruLens and LlamaIndex, 
+          measuring key metrics like answer relevance, context relevance, and groundedness.
+        </p>
+        <p>
+          Implemented evaluation pipelines with customizable feedback mechanisms, including 
+          OpenAI-based relevance scoring and custom context relevance calculations. The system 
+          processes document collections and evaluates query performance across multiple 
+          evaluation questions.
+        </p>
+        <p>
+          Created interactive dashboards for visualizing evaluation metrics and analyzing RAG 
+          system performance. The framework supports both batch processing of predefined questions 
+          and real-time evaluation of user queries.
+        </p>
+        <p style={{ fontStyle: "italic" }}>
+          This project provided valuable insights into RAG system optimization and 
+          the importance of systematic evaluation in AI applications.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Life Simulation",
     imgSrc: "/project-imgs/particlelife.png", // Image source path
     code: "https://github.com/whyismynamerudy/particle-life-rust", // GitHub repository link

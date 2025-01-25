@@ -14,23 +14,46 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "Urban Data Centre, University of Toronto",
-    position: "Machine Learning Engineer",
-    time: "Aug 2023 - Present",
+    title: "Intact Insurance",
+    position: "Software Engineering Intern",
+    time: "May 2024 - Present",
     location: "Toronto, ON",
-    description: `Engineered a novel knowledge source for a Natural Language Understanding (NLU) system by fine-tuning the RoBERTa large language model to > 93% accuracy using transfer learning for NER. \n
-    Independently conducted a comparative study to determine the impact of specific entities on overall accuracy, providing insights into the significance of distinct entities within the model.`,
-    tech: [
-      "Python",
-      "PyTorch",
-      "HuggingFace",
-      "Docker"
-    ]
+    description: `Engineered a dependency visualization system in Clojure and Angular, mapping 5.1k+ microservice dependencies, resulting in 9% faster developer onboarding and improved architectural decision-making.\n
+    Automated OpenShift cluster management through Python/Jenkins scripts, reducing system downtime by 12% and reclaiming 1TB+ of storage through pod monitoring and image cleanup.\n
+    Accelerated monthly release cycle by engineering an automated GitHub release tagging system, reducing process time by 97% using Python, Jenkins, and GitHub CD.`,
+    tech: ["Clojure", "Angular", "Python", "Jenkins", "OpenShift", "GitHub"]
+  },
+  {
+    title: "Computational Social Sciences Lab, University of Toronto",
+    position: "Machine Learning Researcher",
+    time: "May 2024 - Nov 2024",
+    location: "Toronto, ON",
+    description: `Developed a novel joint textual and structural logical query answering framework over knowledge graphs that achieved state-of-the-art performance, outperforming existing methods by up to 8% by incorporating textual context through large language models (LLMs).`,
+    tech: ["Python", "PyTorch", "HuggingFace", "LLMs"]
+  },
+  {
+    title: "Urban Data Center, University of Toronto",
+    position: "Machine Learning Engineer",
+    time: "Sep 2023 - Apr 2024",
+    location: "Toronto, ON",
+    description: `Engineered an ontology-guided system for extracting Knowledge Graph (KG) entities from unstructured text, leveraging Large Language Models (LLMs) to ensure adherence to specific domain ontologies.\n
+    Developed approaches for processing multi-tagged phrases containing information for multiple KG entities, implementing label-specific models and span classifiers to optimize accuracy.\n
+    Implemented data transformation pipelines converting character-level annotations to sentence-level BIO-encoded tokens, enabling fine-tuning of BERT-based models for entity recognition using PyTorch.`,
+    tech: ["Python", "PyTorch", "HuggingFace", "BERT"]
+  },
+  {
+    title: "UNICEF Canada",
+    position: "Full Stack Software Engineer",
+    time: "Sep 2023 - Dec 2023",
+    location: "Toronto, ON",
+    description: `Developed an open-source tool to clone Apache Superset dashboards and a novel cloud-based version control system to facilitate duplication of Superset dashboards across staging and production environments using Python, Firebase, and JavaScript.\n
+    Eliminated dashboard cloning redundancy, reducing time taken to clone and rebuild dashboards across Superset instances by 93.6% (from 15 minutes to 57 seconds) across 100+ UNICEF offices worldwide.`,
+    tech: ["Python", "Firebase", "JavaScript", "Apache Superset"]
   },
   {
     title: "1Kit",
     position: "Co-Founder, CTO, Lead Programmer",
-    time: "May 2023 - Present",
+    time: "May 2023 - Aug 2023",
     location: "Toronto, ON",
     description: `Established an innovative ed-tech startup focused on addressing challenges students and researchers face while accessing and managing information on the web.\n
     Conceptualized, developed, and deployed a dynamic and responsive MVP with novel features extracted from interviews with potential users. \n
