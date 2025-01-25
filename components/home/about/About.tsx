@@ -76,7 +76,7 @@ export const About = () => {
                 worked on autocolorization of black and white images at{" "}
                 <a target="_blank" href="https://utmist.gitlab.io/">
                   utmist
-                </a>, implementing and expanding on "colorful image colorization" by richard zhang et al.
+                </a>, implementing and expanding on &ldquo;colorful image colorization&rdquo; by richard zhang et al.
               </p>
               <p className={styles.aboutText}>
                 led development of an open-source dashboard cloning system at{" "}
